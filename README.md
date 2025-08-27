@@ -1,47 +1,37 @@
-Research Tool
-Description:- 
+#Research Tool
 
-The Universal Research Tool is a Streamlit-based web application designed to help researchers, students, and professionals interact with any research paper. Users can input a paper's content (or abstract), ask questions, and receive answers in different styles such as concise summaries, bullet points, detailed explanations, or simplified versions. The application leverages Hugging Face Transformers and semantic search for accurate, context-aware responses.
+## 🔍 Description
 
-Features
+The **Universal Research Tool** is an innovative **Streamlit-based web application** designed to empower researchers, students, and professionals to interact seamlessly with any research paper. Users can **input a paper's content or abstract**, ask targeted questions, and receive **context-aware answers** in multiple styles such as **concise summaries, bullet points, detailed explanations, or simplified versions**. This tool leverages the power of **Hugging Face Transformers** and **semantic search** for accurate, insightful responses.
 
-Input any research paper text or abstract.
+## ✨ Features
 
-Choose response style (concise, bullet points, detailed, simplified).
+* 📝 **Flexible Input:** Paste any research paper text or abstract.
+* 🎨 **Response Styles:** Choose how the answers are delivered — concise, bullet points, detailed, or simplified.
+* ❓ **Interactive Q\&A:** Ask specific questions about the paper.
+* 🔍 **Semantic Search:** Ensures answers are based on the most relevant sections of the paper.
+* ⚡ **CPU-Friendly:** Optimized to avoid tensor errors, even on CPU.
 
-Ask questions related to the paper.
+## 🛠 Requirements
 
-Semantic search ensures relevant sections are used for answering.
+* Python 3.9+
+* Streamlit
+* Transformers
+* Sentence-Transformers
+* PyTorch (CPU or GPU)
 
-CPU-friendly model usage to prevent tensor errors.
-Requirements
+## 🚀 Optional Improvements
 
-Python 3.9+
+* 📄 Add **PDF upload support** using `PyPDF2` or `pdfplumber`.
+* 💬 Enable **conversation memory** to maintain multi-turn interactions.
+* 🌐 Integrate **Hugging Face Inference API** for larger models.
 
-Streamlit
+## 📄 License
 
-Transformers
+This project is licensed under the **MIT License**.
 
-Sentence-Transformers
+##Acknowledgements
 
-PyTorch (CPU or GPU)
-
-Optional Improvements
-
-Add PDF upload support using PyPDF2 or pdfplumber.
-
-Enable conversation memory to maintain multi-turn interactions.
-
-Integrate Hugging Face Inference API for larger models.
-
-License
-
-MIT License
-
-Acknowledgements
-
-Hugging Face Transformers
-
-Sentence-Transformers
-
-Streamlit
+* Hugging Face Transformers
+* Sentence-Transformers
+* Streamlit
